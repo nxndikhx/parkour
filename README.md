@@ -133,7 +133,7 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
 ## 👩‍💻 Author
 
 **Nandikha**  
-🌐 GitHub: [nxndikhx]  
+🌐 GitHub: [[nxndikhx](https://github.com/nxndikhx)]  
 📬 Email: nandikhat@gmail.com  
 🚀 Built as a final-year project with 💡 + ☕️
 

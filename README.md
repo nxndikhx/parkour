@@ -47,16 +47,20 @@
 
 ## 🗂️ Project Structure
 <pre>
-├── authentication/
-├── booking/
-├── ocr_license_plate/
-├── optimization/
-├── qr_module/
-├── slot_allocation/
-├── vehicle_verification/
+├── ai_optimization.py
+├── alerts.py
+├── captured_plate.jpg
+├── graph_data.py
+├── main.py
+├── ocr.py
+├── qr_generator.py
+├── slot_utils.py
 ├── updated_parking_slots_dataset.csv
-├── user_authentication_dataset.csv
-├── vehicle_information_dataset.csv
+├── updated_parking_slots_dataset_extended.csv
+├── user_auth.py
+├── user_authentication_dataset_extended.csv
+├── vehicle_information_dataset_extended.csv
+├── vehicle_utils.py
 </pre>
 
 

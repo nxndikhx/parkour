@@ -1,0 +1,486 @@
+(venv2) PS C:\Users\drsar\OneDrive\Desktop\maj proj\parkour> python main.py 
+Using CPU. Note: This module is much faster with a GPU.
+🚗 Welcome to Parkour - Smart Parking System
+
+1. Register
+2. Login
+3. Guest Entry
+4. Exit
+Select an option: 1
+👤 Name: nandikha t
+📱 Phone: 9952908190
+📧 Email: nandikhat@gmail.com
+🔐 Password: nandy1*
+🔧 Role (user/official/intern/worker): user
+✅ Registered successfully!
+📸 Scanning your vehicle plate...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+✅ Detected: 0ZI7YXR (Confidence: 0.61)
+
+👋 Welcome, nandikha t!
+📋 Multiple plates detected:
+1. 0ZI7YXR
+Select plate number (or press Enter for first):
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+✅ Detected: DZIZYXR (Confidence: 0.62)
+🔍 Detected plate: DZIZYXR
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 1
+✅ Slot SLOT4 assigned to vehicle DZIZYXR on L1.
+✅ Slot SLOT4 assigned to vehicle DZIZYXR
+⏳ Enter parking duration (in minutes): 1
+⏰ Reminder set for 02:29:14
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 3
+📍 Showing available slots...
+🔓 Available Slots:
+
+Slot_ID Level     Type
+ SLOT12    L2   Normal
+ SLOT13    L2   Normal
+ SLOT14    L2   Normal
+ SLOT15    L2 Electric
+ SLOT16    L2   Normal
+ SLOT17    L2   Normal
+ SLOT18    L2   Normal
+ SLOT19    L2   Normal
+ SLOT20    L2 Electric
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 5
+🔓 Logged out.
+
+1. Register
+2. Login
+3. Guest Entry
+4. Exit
+Select an option: 2
+📧 Email: nandikhat@gmail.com
+🔐 Password: nandy1*
+📸 Scanning your vehicle plate...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+⚠️ EasyOCR failed. Falling back to Tesseract OCR...
+📸 Running Tesseract OCR as fallback...
+🔍 Tesseract Raw Output: 
+
+👋 Welcome, nandikha t!
+Enter vehicle number:
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+✅ Detected: DZI7YXR (Confidence: 0.73)
+🔍 Detected plate: DZI7YXR
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 2
+📤 Releasing slot for vehicle DZI7YXR
+Enter start time (HH:MM): 2:29
+Enter end time (HH:MM): 2:30
+🧾 Bill (Role: user): ₹1
+⚠️ Vehicle not found in any occupied slot.
+🚪 Slot None released.
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 5
+🔓 Logged out.
+
+1. Register
+2. Login
+3. Guest Entry
+4. Exit
+Select an option: 1
+👤 Name: nandy
+📱 Phone: 9952908190
+📧 Email: nandikhat@gmail.com
+🔐 Password: nandy1*
+🔧 Role (user/official/intern/worker): official
+✅ Registered successfully!
+📸 Scanning your vehicle plate...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+⚠️ EasyOCR failed. Falling back to Tesseract OCR...
+📸 Running Tesseract OCR as fallback...
+🔍 Tesseract Raw Output: 
+
+👋 Welcome, nandy!
+Enter vehicle number:
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+⚠️ EasyOCR failed. Falling back to Tesseract OCR...
+📸 Running Tesseract OCR as fallback...
+🔍 Tesseract Raw Output: J
+🔍 Detected plate: J
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+⚠️ EasyOCR failed. Falling back to Tesseract OCR...
+📸 Running Tesseract OCR as fallback...
+🔍 Tesseract Raw Output: 
+⚠️ Plate not detected.
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+✅ Detected: DZI7YXR (Confidence: 0.54)
+🔍 Detected plate: DZI7YXR
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 1
+✅ Slot SLOT12 assigned to vehicle DZI7YXR on L2.
+✅ Slot SLOT12 assigned to vehicle DZI7YXR
+📅 Choose a predefined slot:
+1. 09:00 - 12:00
+2. 12:01 - 15:00
+3. 15:01 - 18:00
+4. 18:01 - 21:00
+5. 21:01 - 00:00
+6. 00:01 - 03:00
+7. 03:01 - 06:00
+8. 06:01 - 09:00
+9. Custom Time
+Select option (1–9): 1
+⏰ Slot booked from 09:00 to 12:00 (180 minutes)
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 2
+📤 Releasing slot for vehicle DZI7YXR
+Enter start time (HH:MM): 09:00
+Enter end time (HH:MM): 12:00
+🧾 Bill (Role: official): ₹90
+🔓 Slot SLOT12 is now available.
+🚪 Slot SLOT12 released.
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 5
+🔓 Logged out.
+
+1. Register
+2. Login
+3. Guest Entry
+4. Exit
+Select an option: 1       
+👤 Name: nandy     
+📱 Phone: 9952908190
+📧 Email: nandikhat@gmail.com
+🔐 Password: nandy1*
+🔧 Role (user/official/intern/worker): intern
+✅ Registered successfully!
+📸 Scanning your vehicle plate...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+⚠️ EasyOCR failed. Falling back to Tesseract OCR...
+📸 Running Tesseract OCR as fallback...
+🔍 Tesseract Raw Output: 
+
+👋 Welcome, nandy!
+Enter vehicle number:
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+⚠️ EasyOCR failed. Falling back to Tesseract OCR...
+📸 Running Tesseract OCR as fallback...
+🔍 Tesseract Raw Output: 
+⚠️ Plate not detected.
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+⚠️ EasyOCR failed. Falling back to Tesseract OCR...
+📸 Running Tesseract OCR as fallback...
+🔍 Tesseract Raw Output: 
+⚠️ Plate not detected.
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+✅ Detected: DZI7YXR (Confidence: 0.77)
+🔍 Detected plate: DZI7YXR
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 1
+✅ Slot SLOT12 assigned to vehicle DZI7YXR on L2.
+✅ Slot SLOT12 assigned to vehicle DZI7YXR
+⌛ How many hours? 5
+🕒 Slot booked for 5 hour(s). Ends at 07:34
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 5
+🔓 Logged out.
+
+1. Register
+2. Login
+3. Guest Entry
+4. Exit
+Select an option: 1
+👤 Name: nandy     
+📱 Phone: 9952908190
+📧 Email: nandikhat@gmail.com
+🔐 Password: nandy1*
+🔧 Role (user/official/intern/worker): worker
+✅ Registered successfully!
+📸 Scanning your vehicle plate...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+⚠️ EasyOCR failed. Falling back to Tesseract OCR...
+📸 Running Tesseract OCR as fallback...
+🔍 Tesseract Raw Output: P
+
+👋 Welcome, nandy!
+📋 Multiple plates detected:
+1. P
+Select plate number (or press Enter for first): 0
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+⚠️ EasyOCR failed. Falling back to Tesseract OCR...
+📸 Running Tesseract OCR as fallback...
+🔍 Tesseract Raw Output: 2S
+🔍 Detected plate: 2S
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+✅ Detected: DZI7 (Confidence: 0.54)
+🔍 Detected plate: DZI7
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+⚠️ EasyOCR failed. Falling back to Tesseract OCR...
+📸 Running Tesseract OCR as fallback...
+🔍 Tesseract Raw Output: 
+⚠️ Plate not detected.
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+⚠️ EasyOCR failed. Falling back to Tesseract OCR...
+📸 Running Tesseract OCR as fallback...
+🔍 Tesseract Raw Output: 
+⚠️ Plate not detected.
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 4
+📸 Scanning vehicle again...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+✅ Detected: DZIZYXR (Confidence: 0.95)
+🔍 Detected plate: DZIZYXR
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 5
+🔓 Logged out.
+
+1. Register
+2. Login
+3. Guest Entry
+4. Exit
+Select an option: 3
+Guest Login Selected.
+📞 Enter phone number: 9952908190
+📸 Scanning your vehicle plate...
+🎥 Accessing camera...
+✅ Camera 1 opened (attempt 1)
+⏳ Capturing frame in 5 seconds. Please position the plate in view.
+🔍 Running EasyOCR...
+✅ Detected: DZI7YXR (Confidence: 0.92)
+
+👋 Welcome, Guest!
+📋 Multiple plates detected:
+1. DZI7YXR
+Select plate number (or press Enter for first): 1
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 1
+✅ Slot SLOT13 assigned to vehicle DZI7YXR on L2.
+✅ Slot SLOT13 assigned to vehicle DZI7YXR
+⏳ Enter parking duration (in minutes): 10
+⏰ Reminder set for 02:48:58
+
+1. Book Slot
+2. Release Slot
+3. Show Available Slots
+4. Rescan Plate
+5. Logout
+Choose action: 5
+🔓 Logged out.
+
+1. Register
+2. Login
+3. Guest Entry
+4. Exit
+Select an option: 4
+👋 Thank you for using Parkour!

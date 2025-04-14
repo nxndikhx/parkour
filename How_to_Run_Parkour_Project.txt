@@ -1,0 +1,38 @@
+
+# How to Run the Parkour Smart Parking System
+
+## Step 1: Clone or download the project files
+Make sure you have the complete folder structure including:
+- main.py
+- parkour/(folder containing all modules)
+- venv2/ (your virtual environment)
+
+## Step 2: Activate the virtual environment
+On Windows (PowerShell):
+    .\venv2\Scripts\activate
+
+## Step 3: Install required dependencies (if not already installed)
+Make sure the following are installed in the virtual environment:
+    pip install -r requirements.txt
+
+If requirements.txt is not available, install individually:
+    pip install numpy==1.24.4 pandas opencv-python easyocr torch matplotlib seaborn scikit-learn networkx qrcode pyzbar
+
+## Step 4: Run the main program
+    python main.py
+
+## Notes:
+- If you encounter any NumPy version compatibility issues, use:
+    pip install numpy==1.24.4
+
+- If you encounter permission errors with torch DLLs:
+    Close other running Python processes and try again.
+
+- Make sure your datasets are in the correct location (inside the project directory).
+
+## Dataset Files Expected:
+- updated_parking_slots_dataset.csv
+- user_authentication_dataset.csv
+- vehicle_information_dataset.csv
+
+Happy Parking! 🚗
